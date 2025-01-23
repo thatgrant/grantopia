@@ -1,0 +1,36 @@
+/* Navigation Bar Styling */
+nav {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Align items vertically */
+    position: relative; /* Allow manual positioning */
+    top: 0; /* Remove any unintended vertical offset */
+    margin-bottom: 20px; /* Space below the navigation bar */
+    padding: 10px; /* Add some padding */
+}
+
+/* Navigation List */
+.navbar {
+    display: flex; /* Horizontal arrangement */
+    gap: 15px; /* Increase spacing between items */
+    list-style: none; /* Remove bullets */
+    margin: 0 auto; /* Center the list */
+    padding-top: 25px; 
+	align-content: center
+}
+
+/* Navigation Links */
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: #e8ca84; /* Match the color of the document */
+    font-size: 18px; /* Adjust font size */
+    font-family: 'CoolveticaRg-Regular';
+    padding: 5px 10px; /* Add padding for better click area */
+    margin: 0; /* Remove margin */
+}
+
+/* Navigation Links Hover State */
+.navbar a:hover {
+    color: #fff; /* Optional: Add hover effect for contrast */
+    transition: color 0.2s ease; /* Smooth color change */
+}
